@@ -20,7 +20,7 @@ function clearTheme() {
 
 // For storing user's display name in cookies
 function storeName(displayName) {
-    document.cookie = `displayName=${displayName}`
+    document.cookie = `displayName=${displayName}; max-age=10`
 }
 
 // For restoring user's display name from cookies, if set in the past
